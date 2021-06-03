@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife</title>
+    <!--normalize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossorigin="anonymous"/>
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <!--main styles-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="page-wrapper">
+    <div class="background-wrapper">
+        <header class="header">
+            <div class="header__container container">
+                <h1 class="header__title visually-hidden">
+                    Wildlife - animal saving project
+                </h1>
+                <div class="header__logo logo">
+                    <div class="header__logo__pic logo__pic"></div>
+                    <span class="header__logo__text logo__text">Wildlife</span>
+                </div>
+                <nav class="header__nav navbar">
+                    <ul class="navbar__list list-reset">
+                        <li class="navbar__item">
+                            <a class="navbar__link link-reset" href="#">
+                                Blog
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link link-reset" href="#">
+                                Contacts
+                            </a>
+                        </li>
+                        <li class="navbar__item navbar__item--icon">
+                            <span class="navbar__icon"></span>
+                        </li>
+                        <li class="navbar__item">
+                            <button class="navbar__btn btn-reset">
+                                Sign in
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="survival">
+            <div class="survival__container container">
+                <h2 class="survival__title">
+                    Survival
+                </h2>
+                <p class="survival__text">
+                    What this means is that we exist to help protect our environment and do in numbers of ways. You can
+                    save the planet by donation.
+                </p>
+                <button class="survival__btn btn-reset">
+                    Donate
+                </button>
+            </div>
+        </section>
+    </div>
+    <main class="main">
+        <section class="latest-articles">
+            <div class="latest-articles__container container">
+                <header class="latest-articles__header">
+                    <h3 class="latest-articles__title">
+                        Latest articles
+                    </h3>
+                    <p class="latest-articles__subtitle">
+                        Breaking news from the wild
+                    </p>
+                </header>
+                <span class="latest-articles__btn latest-articles__btn--prev"></span>
+                <span class="latest-articles__btn latest-articles__btn--next"></span>
+                <div class="latest-articles-wrapper">
+                    <article class="latest-articles__item latest-articles__item--current">
+                        <h4 class="latest-articles__item__title visually-hidden">
+                            Deer - article
+                        </h4>
+                        <img class="latest-articles__item__img" src="./assets/deer-img.jpg" alt="deer in the forest">
+                        <div class="latest-articles__item__text">
+                            <span>Deer</span>
+                            <p>Naturalist investigation</p>
+                        </div>
+                    </article>
+
+                    <article class="latest-articles__item">
+                        <h4 class="latest-articles__item__title visually-hidden">
+                            Squirrel - article
+                        </h4>
+                        <img class="latest-articles__item__img" src="./assets/squirrel-img.jpg"
+                             alt="squirrel in the forest">
+                        <div class="latest-articles__item__text">
+                            <span>Squirrel</span>
+                            <p>Kamikaze squirrels</p>
+                        </div>
+                    </article>
+                    <article class="latest-articles__item">
+                        <h4 class="latest-articles__item__title visually-hidden">
+                            Bird - article
+                        </h4>
+                        <img class="latest-articles__item__img" src="./assets/bird-img.jpg" alt="bird in the forest">
+                        <div class="latest-articles__item__text">
+                            <span>Bird</span>
+                            <p>Birds Fight club</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="get-notified">
+            <div class="get-notified__container container">
+                <h3 class="get-notified__title">
+                    Get notified about new amazing articles
+                </h3>
+                <form class="get-notified__form" action="#">
+                    <label class="get-notified__label" for="email">
+                        <input class="get-notified__subscription" type="text" id="email" placeholder="Email" required>
+                    </label>
+                    <input class="get-notified__btn btn-reset" type="submit" value="Send">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__logo logo">
+                <div class="footer__logo__pic logo__pic"></div>
+                <span class="footer__logo__text logo__text">Wildlife</span>
+            </div>
+            <nav class="footer__nav">
+                <ul class="footer__nav__list list-reset">
+                    <li class="footer__nav__item">
+                        <a class="footer__nav__link link-reset" href="#">
+                            Articles
+                        </a>
+                    </li>
+                    <li class="footer__nav__item">
+                        <a class="footer__nav__link link-reset" href="#">
+                            About us
+                        </a>
+                    </li>
+                    <li class="footer__nav__item">
+                        <a class="footer__nav__link link-reset" href="#">
+                            Learn more
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="social list-reset">
+                <li class="social__item">
+                    <a class="social__link social__link--facebook link-reset" href="#" aria-label="Go to facebook"></a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link social__link--instagram link-reset" href="#"
+                       aria-label="Go to instagram"></a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link social__link--pinterest link-reset" href="#"
+                       aria-label="Go to pinterest"></a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link social__link--telegram link-reset" href="#" aria-label="Go to telegram"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+</body>
+
+</html>
